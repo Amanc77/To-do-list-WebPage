@@ -10,9 +10,9 @@ html, body {
 }
 
 .container {
-    padding: 100px;
+    padding: 10px;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to bottom, red, blue);
     display: flex;
     justify-content: center;
