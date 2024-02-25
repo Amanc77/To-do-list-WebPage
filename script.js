@@ -5,7 +5,15 @@ const inputBox = document.getElementById("input-box");
 
 const listContainer = document.getElementById("list-container");
 
- 
+
+const list2 = document.getElementById('input-box')
+if(inputBox != null){
+  inputBox.addEventListener('click ' , function(ad){
+    let m = 4 
+    m++
+  })
+  
+}  
 function addTask()
 {
       if(inputBox.value === "" ){
